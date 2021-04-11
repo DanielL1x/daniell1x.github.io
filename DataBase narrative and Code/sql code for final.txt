@@ -1,0 +1,76 @@
+//Creates a table with the columns if ID, first and last name.
+//Id is used as primary key and not null so it must be filled out
+//and must be unique. 
+CREATE TABLE PERSON(Id integer PRIMARY KEY NOT NULL, first_name text, last_name text);
+
+//Allows for insertion of data into the table after the table has already been made
+insert into person(Id, first_name, last_name)
+values(1, 'Daniel', 'Leon');
+
+//Updates the table to add a new column
+alter table person
+add age INT;
+
+//After adding a new column we can add data field using the WHERE
+//to search for where we want to insert the data.
+UPDATE PERSON SET age=30 WHERE first_name = 'Daniel';
+
+//Deletes the table PERSON 
+DROP TABLE PERSON;
+
+//Creates a new table
+CREATE TABLE contact_list(person_id text, contact_id text, favorite text);
+
+//Adds a new field and sets the value to 'y'
+update contact_list
+set favorite = 'y';
+
+//Inserts several values at once into the new table
+insert into contact_list (person_id, contact_id, favorite)
+values
+('8', '1', 'y'), ('2', '5', 'y'), ('3', '6', 'y');
+
+//creates new table for joining purposes
+create table message_image (
+
+message_id INT(8) NOT NULL,
+image_id INT(8) NOT NULL,
+PRIMARY KEY (message_id, image_id)
+);
+
+insert into message_image(message_id, image_id)
+values
+('1', '4'),
+('1', '5'),
+('2', '3'),
+('3', '1'),
+('4', '2');
+
+//new table for joining purposes
+create table image(image_name text PRIMARY KEY, image_location text);
+
+insert into image(image_name, image_location)
+values
+('Bus', 'Buffalo'),
+('Car', 'Carport'),
+('Boat', 'Erie'),
+('Motorcycle', 'Detroit'),
+('Bike', 'Rochester');
+
+
+
+
+//Inner joins tables message_image and the bale image
+SELECT message_image.message_id, image.image_name, message_image.image_id FROM message_image INNER JOIN image ON message_image.message_id = image.image_name;
+
+//Creates an index on the image table to allow for faster queries on the table
+CREATE UNIQUE INDEX image_index
+ON image(image_name, image_location);
+
+//Deletes index on image table 
+DROP INDEX image_index;
+
+
+
+
+
