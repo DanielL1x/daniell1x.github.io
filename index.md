@@ -23,14 +23,28 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](https://github.com/DanielL1x/daniell1x.github.io/tree/main/Calculator%20with%20narrative) and ![Image](src)
+and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Software Engineering Example
+
+[Calculator code with Narrative](https://github.com/DanielL1x/daniell1x.github.io/tree/main/Calculator%20with%20narrative) 
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DanielL1x/daniell1x.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Data Structure Example
+
+[Circular Doubly Linked PlayList](https://github.com/DanielL1x/daniell1x.github.io/tree/main/Data%20structure%20code%20with%20narrative)
+
+Example text example text
+
+### Data Base Example
+
+[Database with SQL example](https://github.com/DanielL1x/daniell1x.github.io/tree/main/DataBase%20narrative%20and%20Code)
+
+Example Text example text
 
 ### Support or Contact
 
