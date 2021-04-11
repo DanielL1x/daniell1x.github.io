@@ -28,6 +28,10 @@ and ![Image](src)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+### Code Review
+
+[Code review link to youtube](https://youtu.be/cLtFke1ST8E)
+
 ### Software Engineering Example
 
 [Calculator code with Narrative](https://github.com/DanielL1x/daniell1x.github.io/tree/main/Calculator%20with%20narrative) 
