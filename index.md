@@ -42,7 +42,6 @@ The following is a SQL script designed to showcase the usage of several features
 
 [Database with SQL example](https://github.com/DanielL1x/daniell1x.github.io/tree/main/DataBase%20narrative%20and%20Code)
 
-Example Text example text
 
 ### Contact information
 
