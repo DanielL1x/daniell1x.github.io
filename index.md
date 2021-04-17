@@ -4,7 +4,7 @@ Throughout my time at Southern New Hampshire University, not only did I learn th
 
 ### Working as a student at SNHU
 
-A large part of my time at SNHU involved working with others collaboratively. This was accomplished through discussion, debate, and working on software projects. Many of our projects involved write ups where we must communicate our thought process, decision making, and reasoning. Some projects involved us to explain our projects to a non-technical audience. Projects like this provided the students an invaluable opportunity to prepare communicating with project stakeholders. Data base languages such as SQL and MongoDB were used throughout our program given students the opportunity to work with both structured and unstructured languages. 
+A large part of my time at SNHU involved working with others collaboratively. This was accomplished through discussion, debate, and working on software projects. Many of our projects involved write ups where we must communicate our thought process, decision making, and reasoning. Some projects involved us to explain our projects to a non-technical audience. Projects like this provided the students an invaluable opportunity to prepare communicating with project stakeholders. Languages studied include Java, Python, and C++ for topics such as software engineering, statistical analysis, and graphic design. Data base languages such as SQL and MongoDB were used throughout our program giving students the opportunity to work with both structured and unstructured languages. 
 
 ### Artifacts 
 
